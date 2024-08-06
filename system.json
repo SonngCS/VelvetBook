@@ -1,0 +1,28 @@
+{   
+    "id": "VelvetBook",
+    "name": "VelvetBook",
+    "title": "The Velvet Book - Persona",
+    "description": "A system to play the fan-made Persona TRPG named Velvet book. Version 1.0 beta",
+    "authors": [
+        {
+            "name": "Sonng",
+            "discord": "sonng"
+        }
+
+    ],
+    "readme": "README.md",
+    "version": 0.01,
+    "compatibility": {
+        "minimum": 12,
+        "verified": 12
+    },
+    "esmodules": [
+        "vb1b.js"
+    ],
+    "styles":[
+        "vb1b.css"
+    ],
+    "grid.distance": 2,
+    "grid.units": "m",
+    "socket": false
+}

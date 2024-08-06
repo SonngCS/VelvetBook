@@ -1,0 +1,35 @@
+{
+    "Actor": {
+        "types": [
+            "character", "npc"
+        ],
+        "templates": {
+            "base": {
+                "biography": ""
+            }
+        },
+        "character": {
+            "templates": ["base"]
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon", "quality", "item"
+        ],
+        "templates": {
+            "base": {
+                "description": ""
+            },
+            "quantifiable": {
+                "quantity": 1,
+                "weight": 0
+            }
+        },
+        "weapon": {
+            "templates": ["base", "quantifiable"],
+            "rank": 1,
+            "ranged": false
+            
+        }
+    }
+}
