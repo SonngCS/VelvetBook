@@ -1,0 +1,17 @@
+{
+    "vb1b": {
+        "TYPES": {
+            "ACTOR": {
+                "character": "Character",
+                "npc": "NPC",
+                "persona-user-npc": "Persona-User NPC",
+                "shadow": "Shadow"
+            },
+            "ITEM": {
+                "weapon": "Weapon",
+                "quality": "Quality",
+                "item": "Item"
+            }
+        }
+    }
+}

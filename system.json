@@ -22,7 +22,16 @@
     "styles":[
         "vb1b.css"
     ],
-    "grid.distance": 2,
-    "grid.units": "m",
-    "socket": false
+    "grid": {
+        "distance": 2,
+        "units": "m"
+    },
+    "socket": false,
+    "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        }
+    ]
 }

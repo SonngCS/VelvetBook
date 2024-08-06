@@ -1,7 +1,7 @@
 {
     "Actor": {
         "types": [
-            "character", "npc"
+            "character", "npc", "persona-user-npc", "shadow"
         ],
         "templates": {
             "base": {
