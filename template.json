@@ -1,15 +1,37 @@
 {
     "Actor": {
         "types": [
-            "character", "npc", "persona-user-npc", "shadow"
+            "character", "npc", "persona-user-npc", "shadow", "persona"
         ],
         "templates": {
             "base": {
                 "biography": ""
+            },
+            "awesomeness": {
+                "awesome": 0
+            },
+            "stats": {
+                "diligence": 0,
+                "guts": 0,
+                "proficiency": 0,
+                "knowledge": 0,
+                "expression": 0
             }
         },
+        "npc": {
+            "templates": ["base", "awesomeness"]
+        },
+        "persona-user-npc": {
+            "templates": ["base", "awesomeness"]
+        },
+        "shadow": {
+            "templates": ["base", "awesomeness"]
+        },
+        "persona": {
+            "templates": ["base", "awesomeness"]
+        },
         "character": {
-            "templates": ["base"]
+            "templates": ["base", "awesomeness"]
         }
     },
     "Item": {
@@ -29,7 +51,12 @@
             "templates": ["base", "quantifiable"],
             "rank": 1,
             "ranged": false
-            
+        },
+        "quality": {
+            "templates": ["base"]
+        },
+        "item": {
+            "templates": ["base", "quantifiable"]
         }
     }
 }

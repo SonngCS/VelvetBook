@@ -12,6 +12,13 @@
                 "quality": "Quality",
                 "item": "Item"
             }
+        },
+        "ATTACK": {
+            "attackwith": "Attack with:",
+            "quality": "Persona",
+            "weapon": "Melee weapon",
+            "rangedWeapon": "Ranged weapon",
+            "shadow": "Shadow"
         }
     }
 }
